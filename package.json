@@ -1,0 +1,24 @@
+{
+  "name": "parcelstuff",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html -p 3300",
+    "build": "parcel build index.html --no-cache"
+  },
+  "author": "Oscar Rosete",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "typescript": "^3.2.4"
+  },
+  "devDependencies": {
+    "@types/react": "^16.7.20",
+    "@types/react-dom": "^16.0.11",
+    "node-sass": "^4.11.0",
+    "parcel-bundler": "^1.11.0"
+  }
+}
